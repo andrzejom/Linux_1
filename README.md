@@ -3,7 +3,40 @@ Portfolio 2 - evaluated
 
 Raspberry pi when it is connected to SDU Edurom it's ip adress is 10.126.81.220. It is possible to connect to it with ssh or with a serial port (if it is connected to your computer).
 
-Containers were made with a use of LXC. On containers Alpine Linux is working.
+Containers were made with a use of LXC. On containers Alpine Linux is working. Check README file for usefull tips.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *********************************************************************************************************************
 Usefull commands for containers:
 lxc-start -n C1 && lxc-start -n C2
