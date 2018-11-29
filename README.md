@@ -7,6 +7,7 @@ Containers were made with a use of LXC. On containers Alpine Linux is working. C
 
 *********************************************************************************************************************
 Usefull commands for containers:
+
 lxc-start -n C1 && lxc-start -n C2
 
 lxc-stop -n C2 && lxc-stop -n C2
@@ -29,7 +30,6 @@ iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j DNAT --to-destinatio
 container, configuring iptables
 
 --------------------------------------------------------------------------------------------------------------------
-
 
 Usefull commands inside container:
 
