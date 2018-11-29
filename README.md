@@ -21,7 +21,7 @@ systemctl restart lxc-net //restarting the lxc network service
 
 ipatables //see routing and nat configuration
 
-Mandatory commands to execute on PI:
+MANDATORY COMMANDS TO EXECUTE INSIDE THE PI:
 
 sysctl -w net.ipv4.ip_forward=1 //enabling ipforwarding
 
@@ -37,7 +37,13 @@ rc-status //display working services
 
 apk add PACKAGE_NAME //install new packages (recommended to get nano file editor)
 
-Mandatory: apk add socat 
+MANDATORY COMMANDS TO EXECUTE INSIDE THE COTNAINER: 
+
+apk add socat
+
+rc-update add lighttpd default -> openrc
+
+
 
 *********************************************************************************************************************
 
